@@ -1,0 +1,52 @@
+{
+  "name": "react-hooks-utils",
+  "version": "1.0.1",
+  "description": "Provides a few util hooks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azmenak/react-hooks-utils"
+  },
+  "scripts": {},
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "async",
+    "reducer",
+    "typescript",
+    "esm",
+    "pika",
+    "react-hooks-utils",
+    "useAsyncReducer",
+    "useArrayState",
+    "useReducer"
+  ],
+  "author": "Adam Zmenak <adam.zmenak@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "use-array-state": "^1.0.2",
+    "use-async-reducer": "^1.0.2"
+  },
+  "devDependencies": {
+    "@pika/plugin-build-node": "^0.3.14",
+    "@pika/plugin-build-web": "^0.3.14",
+    "@pika/plugin-ts-standard-pkg": "^0.3.14",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ]
+    ]
+  }
+}
