@@ -18,6 +18,7 @@
     "pika",
     "react-hooks-utils",
     "useAsyncReducer",
+    "useAsyncCall",
     "useArrayState",
     "useReducer"
   ],
@@ -25,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "use-array-state": "^1.0.2",
-    "use-async-reducer": "^1.0.2"
+    "use-async-reducer": "^1.0.4"
   },
   "devDependencies": {
     "@pika/plugin-build-node": "^0.3.14",
