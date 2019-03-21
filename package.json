@@ -26,6 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "use-array-state": "^1.0.2",
+    "use-async-call": "^1.0.4",
     "use-async-reducer": "^1.0.4"
   },
   "devDependencies": {
